@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(MainActivity.this, HomeActivity.class));
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
         finish();
     }
     //  viewpager change listener
