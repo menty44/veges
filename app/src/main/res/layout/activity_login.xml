@@ -13,10 +13,11 @@
         android:layout_width="413dp"
         android:layout_height="375dp"
         android:background="@drawable/loginshape"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:orientation="vertical" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -24,16 +25,17 @@
             android:layout_height="160dp"
             android:layout_gravity="center"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/logo"/>
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/logo" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="center"
-            android:text="Mat Noma Sana"
-            android:textColor="#F8F6F6"
-            android:textSize="30sp" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="Mat Noma Sana"-->
+        <!--            android:textColor="#F8F6F6"-->
+        <!--            android:textSize="30sp" />-->
     </LinearLayout>
 
 
@@ -84,7 +86,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
