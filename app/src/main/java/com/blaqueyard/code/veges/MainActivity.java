@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
-    private Button btnSkip, btnNext;
+    private Button btnSkip, btnNext, gotIt;
     private PrefManager prefManager;
 
     @Override
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(MainActivity.this, MainActivity.class));
+        startActivity(new Intent(MainActivity.this, HomeActivity.class));
         finish();
     }
     //  viewpager change listener

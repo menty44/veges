@@ -6,14 +6,14 @@
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Codeplayon.com solution </string>
-    <string name="slide_1_desc">We are share learn and explore new technolye </string>
+    <string name="slide_1_title">Matatu Sacco</string>
+    <string name="slide_1_desc">Intelligent Solutions </string>
 
-    <string name="slide_2_title">connect with us for new </string>
-    <string name="slide_2_desc">easy to learn and explore your expirence  </string>
+    <string name="slide_2_title">Reporting </string>
+    <string name="slide_2_desc">We consolidate all reports in one repository</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_3_title">Accountability</string>
+    <string name="slide_3_desc">Get real time data and plan better</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
