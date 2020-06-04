@@ -4,41 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen2"
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
-    <Space
-        android:layout_width="400dp"
-        android:layout_height="480dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/rounded_loginbutton"
-        android:text="Log In"
-        android:textAllCaps="false"
-        android:textColor="#fff"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="619dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="433dp"
-        android:layout_height="458dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:color/background_light" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
