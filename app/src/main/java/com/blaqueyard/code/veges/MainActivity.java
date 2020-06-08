@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
-    private Button btnSkip, btnNext, gotIt;
+    private Button btnSkip, btnNext, pay;
     private PrefManager prefManager;
 
     @Override

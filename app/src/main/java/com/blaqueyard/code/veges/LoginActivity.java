@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void launchDashboardScreen() {
-        startActivity(new Intent(this, HomeActivity.class));
+        startActivity(new Intent(this, DashboardActivity.class));
 //        finish();
     }
 
